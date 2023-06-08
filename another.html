@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <img class="logo" src="images/New-Project.jpg"> 
+            </div>
+    <h1>Привет, давно не виделись! Опять пришел почитать о зависимостях? Вот еще пару зависимостей!</h1>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="another.html">Другие зависимости</a></li>
+          </ul>
+        </nav> 
+      </div>
+      
+      <div class="menu-bg" id="menu-bg"></div>      
+</header>
+    <main>
+  <h2>Игровая зависимость: лудомания</h2>
+  <p>Каждый может представить ту радость и всплеск эмоций, которые получает человек, выигравший большой куш в азартной игре. Получив столь мощный прилив позитива однажды, он стремится ощутить это чувство вновь и вновь. Подкрепляет желание и тяга к быстрым деньгам, легкому обогащению. Так, человек перестает радоваться заработанным деньгам, ставя на кон игры все свои материальные ценности.
+
+    Азартные игры формируют очень стойкую психологическую зависимость, которая требует долгого и сложного лечения.</p>
+
+    <h2>Алкогольная зависимость</h2>
+    <p>Пристрастие к этанолу – это, пожалуй, самая известная и понятная зависимость. Со временем желание принять алкоголь, чтобы расслабиться, повеселиться или забыть о проблемах переходит в физическую и психологическую зависимость, разрушающую здоровье и ведущую к деградации личности.
+
+        Спиртные напитки всё чаще становятся следствием преждевременной смерти. Этанол отравляет токсинами все органы и ткани, нарушает работу всех жизненных систем. С появлением заболевания мозг человека перестает воспринимать алкоголь враждебно, включая его в работу головного мозга. Алкогольная зависимость – это болезнь, которая требует полноценного лечения и комплексного подхода.</p>
+</main>
+</body>
+<script>
+    function menuOnClick() {
+    document.getElementById("menu-bar").classList.toggle("change");
+    document.getElementById("nav").classList.toggle("change");
+    document.getElementById("menu-bg").classList.toggle("change-bg");
+  }
+</script>
+</html>
